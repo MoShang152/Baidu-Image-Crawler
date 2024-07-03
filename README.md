@@ -19,3 +19,11 @@ You can install the necessary libraries using pip:
 
 ```bash
 pip install requests beautifulsoup4
+
+Usage
+Clone the repository:
+git clone https://github.com/yourusername/baidu-image-crawler.git
+cd baidu-image-crawler
+Run the script:
+python baidu_image_crawler.py
+Replace baidu_image_crawler.py with the name of your script file. The script will prompt you to enter a search term and a directory to save the images.
