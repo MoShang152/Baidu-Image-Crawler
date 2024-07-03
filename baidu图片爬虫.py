@@ -73,8 +73,8 @@ def get_images_from_baidu(keyword, page_num, save_dir):
 
 
 if __name__ == "__main__":
-    keyword = '铭牌'
-    page_num = 20000
+    keyword = '白毛JK'  #搜索关键词自己定义
+    page_num = 20000    #爬取页数自己设定
     page_num = int(page_num)
-    save_dir = '.\\百度图片\\' + keyword
+    save_dir = '.\\百度图片\\' + keyword   #保存路径，文件夹+关键词名称
     get_images_from_baidu(keyword, page_num, save_dir)
